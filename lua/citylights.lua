@@ -20,7 +20,12 @@
 
 vim.g.colors_name = 'citylights'
 
-local Color, colors, Group, groups, styles = require('colorbuddy').setup()
+local colorbuddy = require('colorbuddy')
+local Color = colorbuddy.Color
+local colors = colorbuddy.colors
+local Group = colorbuddy.Group
+local groups = colorbuddy.groups
+local styles = colorbuddy.styles
 local none = colors.NONE
 local plain = styles.NONE
 local bold = styles.bold
