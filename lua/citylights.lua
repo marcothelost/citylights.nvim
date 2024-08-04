@@ -62,8 +62,8 @@ Color.new('errorRed',     '#f88070')
 Color.new('successGreen', '#8bd49c')
 
 -- TODO: check what these are used for natively and change accordingly
+-- light grey: #cdcdcd
 Color.new('BlueGrey',    '#708ea9')
-Color.new('LightGrey',   '#cdcdcd')
 Color.new('DarkRed',     "#e06c75")
 Color.new('DarkBlue',    "#528bff")
 Color.new('DarkGreen',   "#50a14f")
